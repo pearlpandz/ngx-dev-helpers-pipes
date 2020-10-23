@@ -4,12 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build pipes-test --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lib:build": "ng build pipes",
-    "lib:pack": "cd dist/pipes && npm pack"
+    "lib:pack": "ng build pipes && cd dist/pipes && npm pack"
   },
   "private": true,
   "dependencies": {

@@ -2,9 +2,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'NgArray2String' })
 export class NgArray2String implements PipeTransform {
-    transform(value: any[], field: string): any {
+    transform(value: any[], field = null): any {
         if (value) {
-            if (field) { // array of object
+            if (field != null) { // array of object
                 const str = value.map(a => a[field]).toString();
                 return str;
             } else { // plain array
