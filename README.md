@@ -40,11 +40,11 @@ In **app.component.ts** we have *bucket* array variable, If that array need to t
 
 ``` html
 <!-- Array of Object to String -->
-<h1>{{buckets | NgArray2String: 'name'}} </h1>
+<h1>{{buckets | NgArray2String: 'name'}} </h1> // Output => test 1, test 2, test 3, test 4
 
 
 <!-- Array to String -->
-<h2>{{ [1,2,3,4] | NgArray2String  }}</h2> 
+<h2>{{ [1,2,3,4] | NgArray2String  }}</h2> // Output => 1,2,3,4
 
 ```
 
