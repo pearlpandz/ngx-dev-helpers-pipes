@@ -10,6 +10,11 @@ export class AppComponent {
 
   buckets = [
     {
+      id: 4,
+      name: 'test 4',
+      group: 'bucket group 4'
+    },
+    {
       id: 1,
       name: 'test 1',
       group: 'bucket group 1'
@@ -24,10 +29,6 @@ export class AppComponent {
       name: 'test 3',
       group: 'bucket group 3'
     },
-    {
-      id: 4,
-      name: 'test 4',
-      group: 'bucket group 4'
-    },
+
   ]
 }

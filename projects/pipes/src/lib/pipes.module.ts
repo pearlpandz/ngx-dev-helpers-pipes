@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { NgArray2String } from './pipes/array2string.pipe';
+import { NgToStringPipe } from './pipes/array2string.pipe';
+import { NgSortByPipe } from './pipes/sortBy.pipe';
 
 @NgModule({
-  declarations: [NgArray2String],
+  declarations: [NgToStringPipe, NgSortByPipe],
   imports: [
   ],
-  exports: [NgArray2String]
+  exports: [NgToStringPipe, NgSortByPipe]
 })
 export class PipesModule { }

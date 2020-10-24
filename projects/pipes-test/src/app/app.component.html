@@ -1,6 +1,11 @@
-<!-- Array of Object to String -->
-<h1>{{buckets | NgArray2String: 'name'}} </h1>
- 
+<h4>Array of Object to String</h4>
+<pre>{{buckets | toString: 'name'}} </pre>
 
-<!-- Array to String -->
-<h2>{{ [1,2,3,4] | NgArray2String  }}</h2>  
+<h4>Array to String</h4>
+<pre>{{ [1,2,3,4] | toString  }}</pre>
+
+<h4>Sory Array of Object by 'name' field </h4>
+<pre>{{buckets | sortBy: 'name' | json}} </pre>
+
+<h4>Sort Plain Array</h4>
+<pre>{{ [7,1,2,3,4] | sortBy  }}</pre>

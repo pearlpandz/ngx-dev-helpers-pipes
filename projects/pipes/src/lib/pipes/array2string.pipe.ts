@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({ name: 'NgArray2String' })
-export class NgArray2String implements PipeTransform {
+@Pipe({ name: 'toString' })
+
+export class NgToStringPipe implements PipeTransform {
     transform(value: any[], field = null): any {
         if (value) {
             if (field != null) { // array of object
@@ -16,3 +17,6 @@ export class NgArray2String implements PipeTransform {
         }
     }
 }
+
+// {{buckets | NgArray2String: 'name'}}
+// {{ [1,2,3,4] | NgArray2String  }}

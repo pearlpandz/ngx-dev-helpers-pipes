@@ -4,49 +4,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-red.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## 1. Array to String Transform Pipe
-
-This Pipe will help you to transfor your ***array/array of objects*** to string, 
-
-```typescript
-export class AppComponent {
-  buckets = [
-    {
-      id: 1,
-      name: 'test 1',
-      group: 'bucket group 1'
-    },
-    {
-      id: 2,
-      name: 'test 2',
-      group: 'bucket group 2'
-    },
-    {
-      id: 3,
-      name: 'test 3',
-      group: 'bucket group 3'
-    },
-    {
-      id: 4,
-      name: 'test 4',
-      group: 'bucket group 4'
-    },
-  ]
-}
-```
-
-In **app.component.ts** we have *bucket* array variable, If that array need to transform as string like bucket names => test 1, test 2, test 3
-
-
-``` html
-<!-- Array of Object to String -->
-<h1>{{buckets | NgArray2String: 'name'}} </h1>
-
-
-<!-- Array to String -->
-<h2>{{ [1,2,3,4] | NgArray2String  }}</h2> 
-
-```
+## List of pipes with documentation
+1. [Array to String Transform Pipe (toString)](./readme/toString.md)
+2. [Sory Array (toString)](./readme/sortBy.md)
 
 
 ## Instruction for Contribution 🤝
