@@ -4,9 +4,18 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-red.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## NPM Package
+
+[install npm package](https://www.npmjs.com/package/@ngx-dev-helpers/pipes)
+
+```typescript
+npm i @ngx-dev-helpers/pipes
+```
+
+
 ## List of pipes with documentation
 1. [Array to String Transform Pipe (toString)](./readme/toString.md)
-2. [Sory Array (toString)](./readme/sortBy.md)
+2. [Sory Array (sortBy)](./readme/sortBy.md)
 
 
 ## Instruction for Contribution 🤝
