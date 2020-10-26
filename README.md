@@ -12,6 +12,16 @@
 npm i @ngx-dev-helpers/pipes
 ```
 
+## Import in module
+
+```typescript
+import { PipesModule } from '@ngx-dev-helpers/pipes';
+
+@NgModule({
+  imports: [ PipesModule ]
+})
+export class AppModule { }
+```
 
 ## List of pipes with documentation
 1. [Array to String Transform Pipe (toString)](./readme/toString.md)
