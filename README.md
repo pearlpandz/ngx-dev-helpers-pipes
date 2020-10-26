@@ -23,9 +23,8 @@ import { PipesModule } from '@ngx-dev-helpers/pipes';
 export class AppModule { }
 ```
 
-## List of pipes with documentation
-1. [Array to String Transform Pipe (toString)](./readme/toString.md)
-2. [Sory Array (sortBy)](./readme/sortBy.md)
+## List of pipes
+1. [Array Pipes](https://github.com/pearlpandz/ngx-dev-helpers-pipes/wiki/Array-Pipes)
 
 
 ## Instruction for Contribution 🤝
