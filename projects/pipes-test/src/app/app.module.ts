@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { PipesModule } from 'pipes';
+import { PipesModule } from '@ngx-dev-helpers/pipes';
 
 @NgModule({
   declarations: [

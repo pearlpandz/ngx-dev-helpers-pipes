@@ -23,13 +23,15 @@ import { PipesModule } from '@ngx-dev-helpers/pipes';
 export class AppModule { }
 ```
 
+
 ## List of pipes
 1. [Array Pipes](https://github.com/pearlpandz/ngx-dev-helpers-pipes/wiki/Array-Pipes)
+2. [String Pipes](https://github.com/pearlpandz/ngx-dev-helpers-pipes/wiki/String-Pipes)
 
 
 ## Instruction for Contribution 🤝
 - Fork this Repository using the button at the top
-- Clone your forked repository to your pc ( git clone ```'git@github.com:pearlpandz/ng-pipes.git'```)
+- Clone your forked repository to your pc ( git clone ```'git@github.com:pearlpandz/ngx-dev-helpers-pipes.git'```)
 - Create a new branch for your modifications (ie. `git branch NEW_BRANCH` and check it out `git checkout NEW_BRANCH` and `git checkout -b NEW BRANCH`)
 - Run ```npm``` from inside the cloned project and run ```npm start``` after the previous command execution.
 - Add the issues/new pipes info to the https://github.com/pearlpandz/ng-pipes/issues

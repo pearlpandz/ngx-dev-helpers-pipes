@@ -6,6 +6,18 @@
 
 <h4>Sory Array of Object by 'name' field </h4>
 <pre>{{buckets | sortBy: 'name' | json}} </pre>
-
+ 
 <h4>Sort Plain Array</h4>
 <pre>{{ [7,1,2,3,4] | sortBy  }}</pre>
+
+<h4>capitalize</h4>
+<pre>{{'hello how are you?' | capitalize }}</pre>
+
+<h4>lowercase</h4>
+<pre>{{'HELLO, HOW ARE YOU?' | lowercase }}</pre>
+
+<h4>uppercase</h4>
+<pre>{{'hello, how are you?' | uppercase }}</pre>
+
+<h4>replace</h4>
+<pre>{{'hello how are you?' | replace:'hello':'hey' }}</pre>

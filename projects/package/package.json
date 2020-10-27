@@ -1,0 +1,43 @@
+{
+  "name": "@ngx-dev-helpers/pipes",
+  "version": "1.1.0",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/ngx-dev-helpers-pipes.umd.js",
+  "module": "fesm5/ngx-dev-helpers-pipes.js",
+  "es2015": "fesm2015/ngx-dev-helpers-pipes.js",
+  "esm5": "esm5/ngx-dev-helpers-pipes.js",
+  "esm2015": "esm2015/ngx-dev-helpers-pipes.js",
+  "fesm5": "fesm5/ngx-dev-helpers-pipes.js",
+  "fesm2015": "fesm2015/ngx-dev-helpers-pipes.js",
+  "typings": "ngx-dev-helpers-pipes.d.ts",
+  "metadata": "ngx-dev-helpers-pipes.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "description": "This library will make your life easy. Want to contribute? Don't forget to visit the git repository. If you want any feature or facing any issue? Please create issue in github repository :)",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm i @ngx-dev-helpers/pipes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearlpandz/ngx-dev-helpers-pipes.git"
+  },
+  "keywords": [
+    "angular",
+    "pipes",
+    "helpers"
+  ],
+  "author": "Muthupandi V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pearlpandz/ngx-dev-helpers-pipes/issues"
+  },
+  "homepage": "https://github.com/pearlpandz/ngx-dev-helpers-pipes#readme"
+}

@@ -17,7 +17,6 @@ export class NgSortByPipe implements PipeTransform {
                     return 0;
                 }
             });
-            console.log(array);
             return array;
         } else {
             return array.sort();
